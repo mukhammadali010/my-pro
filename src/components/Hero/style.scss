@@ -1,0 +1,51 @@
+
+main{
+    #hero{
+        padding: var(--containerPadding);
+        z-index: -1;
+       
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .contentImg{
+                width: 530px;
+            }
+            .content{
+                img{
+                    width: 400px;
+                    margin-top: 120px;
+                }
+                h2{
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 54px;
+                    color: var(--secondary);
+                }
+                .Typewriter__wrapper{
+                    width: 430px;
+                    span{
+                        font-size: 40px;
+                    font-weight: 800;
+                    line-height: 54px;
+                    color: var(--primary );
+                    }
+                }
+                button{
+                    padding: 13px 16px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    width: 248px ;
+    height: 56px;
+    border-radius: 5px;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
